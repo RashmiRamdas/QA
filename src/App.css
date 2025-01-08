@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1em;
+}
+
+.App {
+  text-align: center;
+}
+
+.carousal {
+  width: 150px;
+  height: 80px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.carousal-item {
+  width: 100px;
+  height: 80px;
+  display: inline-block;
+  /* flex: 1; */
+  border: 1px solid black;
+  /* gap: 1em; */
+}
